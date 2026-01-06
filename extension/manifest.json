@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Záložky",
+  "version": "1.0",
+  "description": "Po kliknutí otvorí správcu záložiek.",
+  "action": {
+  "default_icon": {
+      "16": "icon.png",
+      "32": "icon.png",
+      "48": "icon.png"
+    },
+    "default_title": "Záložky"
+  },
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
